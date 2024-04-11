@@ -1,0 +1,2427 @@
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-04-11 10:30:20.265
+!MESSAGE Request checkStatus failed with message: Stream closed with error code NGHTTP2_REFUSED_STREAM
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-04-11 11:23:20.460
+!MESSAGE Failed to save JDT index: Index for /ZooIlógico
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\3995056722.index (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.getInputStream(FileIndexLocation.java:84)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:631)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:533)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:1154)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1198)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:836)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:494)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-04-11 11:23:20.461
+!MESSAGE Failed to update qualified index.
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\1865797976.index (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.getInputStream(FileIndexLocation.java:84)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:631)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:533)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.index.MetaIndex.save(MetaIndex.java:100)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveMetaIndex(IndexManager.java:1247)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1223)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:836)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:494)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-04-11 11:24:01.421
+!MESSAGE Failed to save JDT index: Index for /ZooIlógico
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\3995056722.index (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.getInputStream(FileIndexLocation.java:84)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:631)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:533)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:1154)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1198)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:836)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:494)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-04-11 11:24:01.423
+!MESSAGE Failed to update qualified index.
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\1865797976.index (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.getInputStream(FileIndexLocation.java:84)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:631)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:533)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.index.MetaIndex.save(MetaIndex.java:100)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveMetaIndex(IndexManager.java:1247)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1223)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:836)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:494)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-04-11 11:24:14.711
+!MESSAGE Failed to save JDT index: Index for /ZooIlógico
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\3995056722.index (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.getInputStream(FileIndexLocation.java:84)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:631)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:533)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:1154)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1198)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:836)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:494)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-04-11 11:24:14.712
+!MESSAGE Failed to update qualified index.
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\1865797976.index (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.getInputStream(FileIndexLocation.java:84)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:631)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:533)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.index.MetaIndex.save(MetaIndex.java:100)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveMetaIndex(IndexManager.java:1247)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1223)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:836)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:494)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:24:26.609
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:24:28.093
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:24:29.534
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:24:38.541
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:24:39.396
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:24:39.732
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:24:40.030
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:24:40.347
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:24:41.387
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:24:45.037
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:24:45.920
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:24:46.777
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:24:56.170
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:24:57.074
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:02.470
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:03.196
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:03.580
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:04.102
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:05.009
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:09.155
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:09.652
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:11.269
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:13.771
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:19.672
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:21.652
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:22.476
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:23.826
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:24.194
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:25.032
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:25.682
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:29.370
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:29.950
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:31.220
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:31.654
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:31.970
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:32.434
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:32.901
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:33.231
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:33.921
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:34.351
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:35.613
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:36.927
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:38.388
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:41.725
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:42.551
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:43.088
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:43.557
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:44.428
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:46.029
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:46.722
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:50.139
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:51.664
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:53.664
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:57.057
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:57.454
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:57.918
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:25:58.405
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:05.256
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:05.938
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:06.528
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:07.256
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:08.334
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:08.976
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:10.200
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:14.373
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:15.360
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:22.510
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:26.253
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:26.767
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:27.665
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:29.135
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:30.036
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:30.521
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:31.501
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:34.395
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:35.177
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:35.666
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:36.515
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:37.318
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:38.005
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:39.515
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:40.315
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:41.146
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:42.468
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:26:52.843
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:03.586
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:09.472
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:10.912
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:13.194
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:20.535
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:27.637
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:28.391
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:29.860
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:30.743
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:32.903
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:39.842
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:40.673
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:41.149
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:41.535
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:42.971
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:43.760
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:44.745
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:45.641
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:47.024
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:47.508
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:48.496
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:27:48.917
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:09.979
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:10.637
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:11.243
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:14.664
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:15.099
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:15.373
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:18.128
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:18.813
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:19.505
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:19.804
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY org.eclipse.core.resources 4 2 2024-04-11 11:28:20.462
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems while saving variables and containers
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4488)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4741)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4727)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4483)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 4 2024-04-11 11:28:20.463
+!MESSAGE Problems while saving variables and containers
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4483)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4741)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4727)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 4 2024-04-11 11:28:20.463
+!MESSAGE Problems while saving variables and containers
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4483)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4741)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4727)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-04-11 11:28:20.463
+!MESSAGE Can't write workspace state
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.m2e.core\workspaceState.ser (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.createObjectOutputStream(ProjectRegistryReader.java:128)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.writeWorkspaceState(ProjectRegistryReader.java:117)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.writeWorkspaceState(ProjectRegistryManager.java:1046)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.saving(ProjectRegistryManager.java:1197)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2024-04-11 11:28:20.465
+!MESSAGE El sistema no puede encontrar la ruta especificada
+!STACK 0
+java.io.IOException: El sistema no puede encontrar la ruta especificada
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createNewFile(File.java:1043)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.writeInstallInfo(LaunchingPlugin.java:1108)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$1.saving(LaunchingPlugin.java:576)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 568 2024-04-11 11:28:20.468
+!MESSAGE Could not write metadata for '/'.
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.core.resources\.root\.markers.snap (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:155)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:48)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:44)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1851)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1264)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:20.920
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:26.092
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:26.475
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:28.068
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:28.725
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:42.699
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:43.492
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:44.651
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:46.717
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:48.467
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:49.066
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:49.829
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:50.276
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:51.170
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:51.854
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:54.604
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:55.473
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:56.320
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:57.071
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:58.929
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:28:59.318
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:01.607
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:02.325
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:04.109
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:11.076
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:14.288
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:14.650
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:15.047
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:16.434
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:19.010
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:20.537
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:21.053
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY org.eclipse.jface.text 4 0 2024-04-11 11:29:42.153
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\1.png (El sistema no puede encontrar la ruta especificada))
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:115)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:936)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:1094)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:837)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:671)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:663)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\1.png (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 12 more
+
+!ENTRY org.eclipse.jface.text 4 0 2024-04-11 11:29:44.046
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\2.png (El sistema no puede encontrar la ruta especificada))
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:115)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:936)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:1094)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:837)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:671)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:663)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\2.png (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 12 more
+
+!ENTRY org.eclipse.jface.text 4 0 2024-04-11 11:29:46.856
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\3.png (El sistema no puede encontrar la ruta especificada))
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:115)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:936)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:1094)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:837)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:671)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:663)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\3.png (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 12 more
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:53.661
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:55.230
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:56.790
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:57.245
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:58.290
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:29:59.825
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:00.109
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:00.596
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:01.397
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:02.120
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:02.526
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:04.171
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:05.054
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY org.eclipse.jface.text 4 0 2024-04-11 11:30:08.241
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\4.png (El sistema no puede encontrar la ruta especificada))
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:115)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:936)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:1094)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:837)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:671)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:663)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\4.png (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 12 more
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:17.330
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:38.203
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:38.914
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:39.629
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:41.951
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:42.948
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:43.407
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:44.363
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:45.002
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:45.815
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:30:59.844
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:00.845
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:02.514
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:03.639
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:06.155
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:07.191
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:07.703
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:09.384
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:09.875
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:11.023
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:11.835
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:12.845
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:13.846
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:16.336
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:17.191
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:17.726
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:20.142
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:22.879
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:23.262
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:24.855
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:27.020
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY org.eclipse.jface.text 4 0 2024-04-11 11:31:29.738
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\5.png (El sistema no puede encontrar la ruta especificada))
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:115)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:936)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:1094)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:837)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:671)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:663)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\5.png (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 12 more
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:30.610
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:34.457
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:35.261
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:38.593
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:38.987
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:40.249
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:42.652
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:44.798
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:48.190
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:50.836
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:51.729
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:52.385
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:52.785
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:53.538
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:54.133
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:55.451
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:56.396
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:58.119
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:59.067
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:31:59.638
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:02.582
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:03.253
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:04.364
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:05.111
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:05.771
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:06.350
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:07.198
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:07.817
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:08.560
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:09.193
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:10.285
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:10.760
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:11.677
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:12.058
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:13.472
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:13.913
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:14.529
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:14.874
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:16.397
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:16.978
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:18.246
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:18.835
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:19.912
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:21.799
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY org.eclipse.jface.text 4 0 2024-04-11 11:32:23.544
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\6.png (El sistema no puede encontrar la ruta especificada))
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:115)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:936)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:1094)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:837)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:671)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:663)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\6.png (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 12 more
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:26.194
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY org.eclipse.jface.text 4 0 2024-04-11 11:32:35.189
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\7.png (El sistema no puede encontrar la ruta especificada))
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:115)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:936)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:1094)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:837)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:671)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:663)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\7.png (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 12 more
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:36.065
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:36.843
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:37.819
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:39.298
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY org.eclipse.jface.text 4 0 2024-04-11 11:32:48.523
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\8.png (El sistema no puede encontrar la ruta especificada))
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:115)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:936)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:1094)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:837)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:671)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:663)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\8.png (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 12 more
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:48.766
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:32:57.222
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:05.321
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:07.603
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:08.072
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:08.996
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:09.588
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:11.395
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:11.896
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:18.787
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:26.650
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:28.455
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:29.464
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:30.368
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:31.377
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:32.394
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:32.673
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:34.009
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:34.641
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:35.394
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:37.252
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:57.399
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:33:59.730
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY org.eclipse.jface.text 4 0 2024-04-11 11:34:21.251
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\9.png (El sistema no puede encontrar la ruta especificada))
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:115)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:936)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:1094)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:837)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:671)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:663)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\9.png (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 12 more
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:34:21.993
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY org.eclipse.jface.text 4 0 2024-04-11 11:34:23.130
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\10.png (El sistema no puede encontrar la ruta especificada))
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:115)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:936)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:1094)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:837)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:671)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:663)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\10.png (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 12 more
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:34:26.006
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:34:41.177
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY org.eclipse.jface.text 4 0 2024-04-11 11:35:01.432
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\11.png (El sistema no puede encontrar la ruta especificada))
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:115)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:936)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:1094)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:837)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:671)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:663)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\11.png (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 12 more
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:02.450
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:03.172
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:03.679
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:04.591
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:05.144
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:05.556
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:05.896
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:06.668
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:08.224
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:10.014
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:11.690
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:14.423
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:20.283
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:21.942
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:25.092
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:25.779
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:26.510
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:32.262
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:36.380
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY org.eclipse.jface.text 4 0 2024-04-11 11:35:49.316
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\12.png (El sistema no puede encontrar la ruta especificada))
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:115)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:936)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:1094)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:837)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:671)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:663)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.ui\jdt-images\12.png (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 12 more
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:51.095
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:51.505
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:52.194
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:52.755
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:53.753
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:57.314
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:58.082
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:58.357
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-04-11 11:35:59.380
+!MESSAGE Not authenticated: NotAuthorized
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-04-11 11:36:01.071
+!MESSAGE Failed to save JDT index: Index for /ZooIlógico
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\3995056722.index (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.getInputStream(FileIndexLocation.java:84)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:631)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:533)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:1154)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1198)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:836)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:494)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-04-11 11:36:01.071
+!MESSAGE Failed to update qualified index.
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\1865797976.index (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.getInputStream(FileIndexLocation.java:84)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:631)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:533)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.index.MetaIndex.save(MetaIndex.java:100)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveMetaIndex(IndexManager.java:1247)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1223)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:836)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:494)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+!ENTRY org.eclipse.core.resources 4 2 2024-04-11 11:41:01.122
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems while saving variables and containers
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4488)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4741)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4727)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4483)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 4 2024-04-11 11:41:01.123
+!MESSAGE Problems while saving variables and containers
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4483)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4741)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4727)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 4 2024-04-11 11:41:01.123
+!MESSAGE Problems while saving variables and containers
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4483)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4741)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4727)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-04-11 11:41:01.123
+!MESSAGE Can't write workspace state
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.m2e.core\workspaceState.ser (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.createObjectOutputStream(ProjectRegistryReader.java:128)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.writeWorkspaceState(ProjectRegistryReader.java:117)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.writeWorkspaceState(ProjectRegistryManager.java:1046)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.saving(ProjectRegistryManager.java:1197)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2024-04-11 11:41:01.125
+!MESSAGE El sistema no puede encontrar la ruta especificada
+!STACK 0
+java.io.IOException: El sistema no puede encontrar la ruta especificada
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createNewFile(File.java:1043)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.writeInstallInfo(LaunchingPlugin.java:1108)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$1.saving(LaunchingPlugin.java:576)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2024-04-11 11:41:01.126
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error saving launch history
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.saving(LaunchConfigurationManager.java:1182)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1DebugUIPluginSaveParticipant.saving(DebugUIPlugin.java:531)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: El sistema no puede encontrar la ruta especificada
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createNewFile(File.java:1043)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.persistLaunchHistory(LaunchConfigurationManager.java:467)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.saving(LaunchConfigurationManager.java:1180)
+	... 9 more
+!SUBENTRY 1 org.eclipse.debug.ui 4 0 2024-04-11 11:41:01.126
+!MESSAGE Internal error saving launch history
+!STACK 0
+java.io.IOException: El sistema no puede encontrar la ruta especificada
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createNewFile(File.java:1043)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.persistLaunchHistory(LaunchConfigurationManager.java:467)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.saving(LaunchConfigurationManager.java:1180)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1DebugUIPluginSaveParticipant.saving(DebugUIPlugin.java:531)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.ui 4 0 2024-04-11 11:41:01.126
+!MESSAGE Internal error saving launch history
+!STACK 0
+java.io.IOException: El sistema no puede encontrar la ruta especificada
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createNewFile(File.java:1043)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.persistLaunchHistory(LaunchConfigurationManager.java:467)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.saving(LaunchConfigurationManager.java:1180)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1DebugUIPluginSaveParticipant.saving(DebugUIPlugin.java:531)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 568 2024-04-11 11:41:01.127
+!MESSAGE Could not write metadata for '/'.
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.core.resources\.root\.markers.snap (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:155)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:48)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:44)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1851)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1264)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1205)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2024-04-11 11:43:01.241
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems while saving variables and containers
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4488)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4741)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4727)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2494)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:553)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4483)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 4 2024-04-11 11:43:01.241
+!MESSAGE Problems while saving variables and containers
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4483)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4741)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4727)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2494)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:553)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.core 4 4 2024-04-11 11:43:01.241
+!MESSAGE Problems while saving variables and containers
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4483)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4741)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4727)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2494)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:553)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-04-11 11:43:01.243
+!MESSAGE Can't write workspace state
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.m2e.core\workspaceState.ser (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.createObjectOutputStream(ProjectRegistryReader.java:128)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.writeWorkspaceState(ProjectRegistryReader.java:117)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.writeWorkspaceState(ProjectRegistryManager.java:1046)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.saving(ProjectRegistryManager.java:1197)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2494)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:553)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2024-04-11 11:43:01.247
+!MESSAGE El sistema no puede encontrar la ruta especificada
+!STACK 0
+java.io.IOException: El sistema no puede encontrar la ruta especificada
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createNewFile(File.java:1043)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.writeInstallInfo(LaunchingPlugin.java:1108)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$1.saving(LaunchingPlugin.java:576)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:453)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:272)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2494)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:553)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-04-11 11:43:04.862
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2024-04-11 11:43:04.863
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2024-04-11 11:43:04.863
+!MESSAGE Could not write workspace metadata 'D:/Users/Alumno/Documents/repoClases/ETS/ZooIlogico/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree'.
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.core.resources\.root\1.tree (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.saveTree(SaveManager.java:1424)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1230)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2494)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:553)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-04-11 11:43:06.524
+!MESSAGE Failed to save JDT index: Index for /ZooIlógico
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\3995056722.index (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.getInputStream(FileIndexLocation.java:84)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:631)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:533)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:1154)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1198)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:836)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:494)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-04-11 11:43:06.525
+!MESSAGE Failed to update qualified index.
+!STACK 0
+java.io.FileNotFoundException: D:\Users\Alumno\Documents\repoClases\ETS\ZooIlogico\.metadata\.plugins\org.eclipse.jdt.core\1865797976.index (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.getInputStream(FileIndexLocation.java:84)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:631)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:533)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.index.MetaIndex.save(MetaIndex.java:100)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveMetaIndex(IndexManager.java:1247)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1223)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:836)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:494)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-04-11 11:43:07.294
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2024-04-11 11:43:08.499 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.9
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-11 11:43:29.533
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-04-11 11:43:32.599
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 4 0 2024-04-11 11:43:32.616
+!MESSAGE An error occurred while automatically activating bundle org.eclipse.core.resources (112).
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.core.resources.ResourcesPlugin.start() of bundle org.eclipse.core.resources.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:839)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+Caused by: org.eclipse.core.internal.dtree.ObjectNotFoundException: Tree element '/ZooIlógico/src/Zoo/Main.java' not found.
+	at org.eclipse.core.internal.dtree.AbstractDataTree.handleNotFound(AbstractDataTree.java:184)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.getData(DeltaDataTree.java:572)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:54)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:51)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.asBackwardDelta(DeltaDataTree.java:96)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:809)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:808)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:785)
+	at org.eclipse.core.internal.watson.ElementTree.immutable(ElementTree.java:540)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:797)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2620)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2324)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	... 29 more
+Root exception:
+org.eclipse.core.internal.dtree.ObjectNotFoundException: Tree element '/ZooIlógico/src/Zoo/Main.java' not found.
+	at org.eclipse.core.internal.dtree.AbstractDataTree.handleNotFound(AbstractDataTree.java:184)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.getData(DeltaDataTree.java:572)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:54)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:51)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.asBackwardDelta(DeltaDataTree.java:96)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:809)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:808)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:785)
+	at org.eclipse.core.internal.watson.ElementTree.immutable(ElementTree.java:540)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:797)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2620)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2324)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 4 0 2024-04-11 11:43:32.631
+!MESSAGE Application error
+!STACK 1
+java.lang.NoClassDefFoundError: org/eclipse/core/resources/IContainer
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle org.eclipse.core.resources (112).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:126)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 14 more
+Caused by: org.osgi.framework.BundleException: Exception in org.eclipse.core.resources.ResourcesPlugin.start() of bundle org.eclipse.core.resources.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:839)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	... 22 more
+Caused by: org.eclipse.core.internal.dtree.ObjectNotFoundException: Tree element '/ZooIlógico/src/Zoo/Main.java' not found.
+	at org.eclipse.core.internal.dtree.AbstractDataTree.handleNotFound(AbstractDataTree.java:184)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.getData(DeltaDataTree.java:572)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:54)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:51)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.asBackwardDelta(DeltaDataTree.java:96)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:809)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:808)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:785)
+	at org.eclipse.core.internal.watson.ElementTree.immutable(ElementTree.java:540)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:797)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2620)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2324)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	... 29 more
+!SESSION 2024-04-11 11:43:50.328 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.9
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-11 11:43:52.093
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-04-11 11:43:56.530
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 4 0 2024-04-11 11:43:56.530
+!MESSAGE An error occurred while automatically activating bundle org.eclipse.core.resources (112).
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.core.resources.ResourcesPlugin.start() of bundle org.eclipse.core.resources.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:839)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+Caused by: org.eclipse.core.internal.dtree.ObjectNotFoundException: Tree element '/ZooIlógico/src/Zoo/Main.java' not found.
+	at org.eclipse.core.internal.dtree.AbstractDataTree.handleNotFound(AbstractDataTree.java:184)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.getData(DeltaDataTree.java:572)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:54)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:51)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.asBackwardDelta(DeltaDataTree.java:96)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:809)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:808)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:785)
+	at org.eclipse.core.internal.watson.ElementTree.immutable(ElementTree.java:540)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:797)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2620)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2324)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	... 29 more
+Root exception:
+org.eclipse.core.internal.dtree.ObjectNotFoundException: Tree element '/ZooIlógico/src/Zoo/Main.java' not found.
+	at org.eclipse.core.internal.dtree.AbstractDataTree.handleNotFound(AbstractDataTree.java:184)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.getData(DeltaDataTree.java:572)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:54)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:51)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.asBackwardDelta(DeltaDataTree.java:96)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:809)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:808)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:785)
+	at org.eclipse.core.internal.watson.ElementTree.immutable(ElementTree.java:540)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:797)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2620)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2324)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 4 0 2024-04-11 11:43:56.561
+!MESSAGE Application error
+!STACK 1
+java.lang.NoClassDefFoundError: org/eclipse/core/resources/IContainer
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle org.eclipse.core.resources (112).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:126)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 14 more
+Caused by: org.osgi.framework.BundleException: Exception in org.eclipse.core.resources.ResourcesPlugin.start() of bundle org.eclipse.core.resources.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:839)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	... 22 more
+Caused by: org.eclipse.core.internal.dtree.ObjectNotFoundException: Tree element '/ZooIlógico/src/Zoo/Main.java' not found.
+	at org.eclipse.core.internal.dtree.AbstractDataTree.handleNotFound(AbstractDataTree.java:184)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.getData(DeltaDataTree.java:572)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:54)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:51)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.asBackwardDelta(DeltaDataTree.java:96)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:809)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:808)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:785)
+	at org.eclipse.core.internal.watson.ElementTree.immutable(ElementTree.java:540)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:797)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2620)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2324)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	... 29 more
+!SESSION 2024-04-11 11:44:39.456 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.9
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-11 11:44:41.573
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-04-11 11:44:58.573
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 4 0 2024-04-11 11:44:58.590
+!MESSAGE An error occurred while automatically activating bundle org.eclipse.core.resources (112).
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.core.resources.ResourcesPlugin.start() of bundle org.eclipse.core.resources.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:839)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+Caused by: org.eclipse.core.internal.dtree.ObjectNotFoundException: Tree element '/ZooIlógico/src/Zoo/Main.java' not found.
+	at org.eclipse.core.internal.dtree.AbstractDataTree.handleNotFound(AbstractDataTree.java:184)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.getData(DeltaDataTree.java:572)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:54)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:51)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.asBackwardDelta(DeltaDataTree.java:96)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:809)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:808)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:785)
+	at org.eclipse.core.internal.watson.ElementTree.immutable(ElementTree.java:540)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:797)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2620)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2324)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	... 29 more
+Root exception:
+org.eclipse.core.internal.dtree.ObjectNotFoundException: Tree element '/ZooIlógico/src/Zoo/Main.java' not found.
+	at org.eclipse.core.internal.dtree.AbstractDataTree.handleNotFound(AbstractDataTree.java:184)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.getData(DeltaDataTree.java:572)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:54)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:51)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.asBackwardDelta(DeltaDataTree.java:96)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:809)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:808)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:785)
+	at org.eclipse.core.internal.watson.ElementTree.immutable(ElementTree.java:540)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:797)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2620)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2324)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.osgi 4 0 2024-04-11 11:44:58.607
+!MESSAGE Application error
+!STACK 1
+java.lang.NoClassDefFoundError: org/eclipse/core/resources/IContainer
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle org.eclipse.core.resources (112).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:126)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 14 more
+Caused by: org.osgi.framework.BundleException: Exception in org.eclipse.core.resources.ResourcesPlugin.start() of bundle org.eclipse.core.resources.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:839)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	... 22 more
+Caused by: org.eclipse.core.internal.dtree.ObjectNotFoundException: Tree element '/ZooIlógico/src/Zoo/Main.java' not found.
+	at org.eclipse.core.internal.dtree.AbstractDataTree.handleNotFound(AbstractDataTree.java:184)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.getData(DeltaDataTree.java:572)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:54)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.NoDataDeltaNode.asBackwardDelta(NoDataDeltaNode.java:63)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:51)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.asBackwardDelta(DeltaDataTree.java:96)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:809)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:808)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:785)
+	at org.eclipse.core.internal.watson.ElementTree.immutable(ElementTree.java:540)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:797)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2620)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2324)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	... 29 more
